@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: kali-aishah-devops
+    container_name: kali-aishah-compose
+    environment:
+      STUDENT_NAME: Aishah
+      STUDENT_SURNAME: Kali
+      STUDENT_GROUP: IT2-2309
+      STUDENT_ID: "37830"
+      COURSE: DevOps
+
