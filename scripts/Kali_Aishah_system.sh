@@ -3,8 +3,8 @@ NAME="Aishah"
 SURNAME="Kali"
 GROUP="IT2-2309"
 STUDENT_ID="37830"
- 
-INFO_FILE="../Kali_Aishah_info.txt"
+
+INFO_FILE="$(dirname "$0")/../Kali_Aishah_info.txt"
  
 echo "=============================="
 echo "Student Information"
